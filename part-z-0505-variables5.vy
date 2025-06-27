@@ -19,6 +19,7 @@ last_updated: uint256
 
 @external
 def set_variables():
+
     self.total_supply = 10
 
     self.owner = msg.sender
